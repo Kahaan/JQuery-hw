@@ -15,7 +15,7 @@ View.prototype.exercise0 = function () {
   //just a list of dots
 
   //this one completed as an example :) no additional code necessary
-  $('li').removeClass("square");
+  // $('li').removeClass("square");
 };
 
 View.prototype.exercise1 = function () {
