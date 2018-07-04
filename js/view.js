@@ -15,7 +15,7 @@ View.prototype.exercise0 = function () {
   //just a list of dots
 
   //this one completed as an example :) no additional code necessary
-  // $('li').removeClass("square");
+  $('li').removeClass("square");
 };
 
 View.prototype.exercise1 = function () {
@@ -23,6 +23,7 @@ View.prototype.exercise1 = function () {
   //Result: Every square should turn orange (we already have a CSS rule)
 
   //your code here!
+  $('li').addClass('orange')
 };
 
 View.prototype.exercise2 = function () {
@@ -30,6 +31,7 @@ View.prototype.exercise2 = function () {
   //Result: Every square vanishes
 
   //your code here!
+  $('.square').remove()
 };
 
 View.prototype.exercise3 = function () {
