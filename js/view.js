@@ -39,6 +39,8 @@ View.prototype.exercise3 = function () {
   //Result: An <h1> with the text 'i love jquery' appears under the grid.
 
   //your code here!
+  const h1 = $('<h1>').text("I love Jquery")
+  $("#easel").append(h1)
 };
 
 View.prototype.exercise4 = function () {
@@ -46,6 +48,8 @@ View.prototype.exercise4 = function () {
   //Result: Your name appears in every other square.
 
   //your code here!
+  $(".square:nth-child(even)").text("Jeff");
+
 };
 
 View.prototype.exercise5 = function () {
