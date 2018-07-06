@@ -2,7 +2,7 @@
 
 function View($el) {
   this.$el = $el;
-  this.setupEasel();
+  // this.setupEasel();
 }
 
 window._randomColorString = function(){
